@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import ProductCard from "@/components/product-card"
 import FeatureCard from "@/components/feature-card"
 import TestimonialCard from "@/components/testimonial-card"
+import Link from "next/link"
 
 export default function Home() {
   const products = [
@@ -145,6 +146,11 @@ export default function Home() {
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
+          </div>
+          <div className="flex justify-center ">
+            <Link href="wa.me/263774620747?text=Can i view more of your products" target="blank"><Button size="lg" className="mt-8 bg-red-600 hover:bg-red-700 text-white">
+              View All Products
+            </Button></Link>
           </div>
         </div>
       </section>
