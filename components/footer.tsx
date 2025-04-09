@@ -40,36 +40,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Products</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
-                  Compact Vault
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
-                  Standard Vault
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
-                  Family Vault
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
-                  Premium Vault
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
-                  Custom Solutions
-                </Link>
-              </li>
-            </ul>
-          </div>
+
 
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Company</h3>

@@ -177,7 +177,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-20 bg-black relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=600&width=1200')] bg-cover bg-center opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('https://ngratesc.sirv.com/armor_sphere/safes.png')] bg-cover bg-center opacity-10"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight">Ready to Secure What Matters Most?</h2>

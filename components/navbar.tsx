@@ -33,9 +33,6 @@ export default function Navbar() {
             <Link href="/products" className="text-white hover:text-red-500 transition-colors">
               Products
             </Link>
-            <Link href="#features" className="text-white hover:text-red-500 transition-colors">
-              Features
-            </Link>
             <Link href="#about" className="text-white hover:text-red-500 transition-colors">
               About
             </Link>
