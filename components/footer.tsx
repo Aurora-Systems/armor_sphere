@@ -18,7 +18,7 @@ export default function Footer() {
               <span className="ml-2 text-xl font-bold text-white">Armor Sphere</span>
             </div>
             <p className="text-sm">
-              Providing premium security solutions since 2005. Our mission is to protect what matters most to you.
+              Providing premium security solutions since 2024. Our mission is to protect what matters most to you.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-400 hover:text-red-500 transition-colors">
@@ -78,15 +78,16 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 text-red-500 mt-1 flex-shrink-0" />
-                <span>123 Security Ave, Safetown, ST 12345</span>
+                <span>484 Goodwin ( along gleneagles Rd
+                  Directly opposite to eaglesvile ) Unit 1A shop A&B</span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 text-red-500 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+263 77 462 0747</span>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 text-red-500 flex-shrink-0" />
-                <span>info@armorsphere.com</span>
+                <span>info@armorsphere.co.zw</span>
               </li>
             </ul>
           </div>
