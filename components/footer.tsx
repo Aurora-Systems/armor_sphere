@@ -95,6 +95,8 @@ export default function Footer() {
 
         <div className="border-t border-zinc-800 mt-12 pt-8 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} Armor Sphere Solutions. All rights reserved.</p>
+          <br/>
+          <small><a href="https://aurorasystems.co.zw" target="blank"><u>Made By Aurora</u></a></small>
         </div>
       </div>
     </footer>
