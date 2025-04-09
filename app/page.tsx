@@ -70,7 +70,7 @@ export default function Home() {
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black z-10"></div>
-          <div className="absolute inset-0 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover bg-center opacity-30"></div>
+          <div className="absolute inset-0 bg-[url('https://ngratesc.sirv.com/armor_sphere/safes.png')] bg-cover bg-center opacity-70"></div>
         </div>
         <div className="container mx-auto px-4 z-20 text-center">
           <div className="flex justify-center mb-8">
