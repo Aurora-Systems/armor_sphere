@@ -1,0 +1,130 @@
+import Link from "next/link"
+import Image from "next/image"
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react"
+
+export default function Footer() {
+  return (
+    <footer className="bg-zinc-950 text-gray-300 border-t border-zinc-800">
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="space-y-4">
+            <div className="flex items-center">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/armor_sphere_logo-e881jYykev0ouu2CyKuMFopYsbVRns.png"
+                alt="Armor Sphere Logo"
+                width={60}
+                height={60}
+              />
+              <span className="ml-2 text-xl font-bold text-white">Armor Sphere</span>
+            </div>
+            <p className="text-sm">
+              Providing premium security solutions since 2005. Our mission is to protect what matters most to you.
+            </p>
+            <div className="flex space-x-4">
+              <Link href="#" className="text-gray-400 hover:text-red-500 transition-colors">
+                <Facebook size={20} />
+                <span className="sr-only">Facebook</span>
+              </Link>
+              <Link href="#" className="text-gray-400 hover:text-red-500 transition-colors">
+                <Twitter size={20} />
+                <span className="sr-only">Twitter</span>
+              </Link>
+              <Link href="#" className="text-gray-400 hover:text-red-500 transition-colors">
+                <Instagram size={20} />
+                <span className="sr-only">Instagram</span>
+              </Link>
+              <Link href="#" className="text-gray-400 hover:text-red-500 transition-colors">
+                <Linkedin size={20} />
+                <span className="sr-only">LinkedIn</span>
+              </Link>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-white">Products</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  Compact Vault
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  Standard Vault
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  Family Vault
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  Premium Vault
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  Custom Solutions
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-white">Company</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  Our Team
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-red-500 transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <MapPin size={18} className="mr-2 text-red-500 mt-1 flex-shrink-0" />
+                <span>123 Security Ave, Safetown, ST 12345</span>
+              </li>
+              <li className="flex items-center">
+                <Phone size={18} className="mr-2 text-red-500 flex-shrink-0" />
+                <span>+1 (555) 123-4567</span>
+              </li>
+              <li className="flex items-center">
+                <Mail size={18} className="mr-2 text-red-500 flex-shrink-0" />
+                <span>info@armorsphere.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="border-t border-zinc-800 mt-12 pt-8 text-center text-sm">
+          <p>&copy; {new Date().getFullYear()} Armor Sphere Solutions. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  )
+}
