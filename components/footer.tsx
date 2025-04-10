@@ -50,26 +50,7 @@ export default function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
-                  Our Team
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
-                  Privacy Policy
-                </Link>
-              </li>
+              
             </ul>
           </div>
 

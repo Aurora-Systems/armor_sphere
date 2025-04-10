@@ -11,56 +11,63 @@ export default function Home() {
     {
       id: 1,
       name: "Compact Vault",
-      size: "26L",
+      size: "36L",
       dimensions: "50 × 40 × 40 CM",
       weight: "140 KGS",
       price: 300,
-      image: "/placeholder.svg?height=300&width=300",
-      features: ["Fire resistant", "Digital lock", "Emergency key", "Anchor points"],
+      image: "https://ngratesc.sirv.com/armor_sphere/36l.png",
+      features: ["Fire resistant", "Emergency key", "Anchor points"],
     },
     {
       id: 2,
-      name: "Standard Vault",
-      size: "60L",
-      dimensions: "66 × 48 × 40 CM",
+      name: "Compact Drop In Vault",
+      size: "36L",
+      dimensions: "50 × 40 × 40 CM",
       weight: "190 KGS",
-      price: 600,
-      image: "/placeholder.svg?height=300&width=300",
-      features: ["Fire resistant", "Digital lock", "Emergency key", "Anchor points", "Interior lighting"],
+      price: 300,
+      image: "https://ngratesc.sirv.com/armor_sphere/36l%20dpi.png",
+      features: ["Fire resistant", "Emergency key", "Anchor points"],
     },
     {
       id: 3,
       name: "Family Vault",
-      size: "80L",
-      dimensions: "66 × 50 × 50 CM",
-      weight: "240 KGS",
-      price: 700,
-      image: "/placeholder.svg?height=300&width=300",
+      size: "60L",
+      dimensions: "66 × 48 × 40 CM",
+      weight: "190 KGS",
+      price: 600,
+      image: "https://ngratesc.sirv.com/armor_sphere/60l.png",
       features: [
         "Fire resistant",
-        "Digital lock",
         "Emergency key",
-        "Anchor points",
-        "Interior lighting",
-        "Humidity control",
+        "Anchor points"
       ],
     },
     {
       id: 4,
+      name: "Business Vault",
+      size: "80L",
+      dimensions: "66 × 50 × 50 CM",
+      weight: "240 KGS",
+      price: 700,
+      image: "https://ngratesc.sirv.com/armor_sphere/80l.png",
+      features: [
+        "Fire resistant",
+        "Emergency key",
+        "Anchor points"
+      ],
+    },
+    {
+      id: 5,
       name: "Premium Vault",
       size: "200L",
       dimensions: "130 × 52 × 55 CM",
       weight: "600 KGS",
       price: 1100,
-      image: "/placeholder.svg?height=300&width=300",
+      image: "https://ngratesc.sirv.com/armor_sphere/200l.png",
       features: [
         "Fire resistant",
-        "Digital lock",
         "Emergency key",
         "Anchor points",
-        "Interior lighting",
-        "Humidity control",
-        "Biometric access",
       ],
     },
   ]
@@ -169,12 +176,12 @@ export default function Home() {
             />
             <TestimonialCard
               quote="After researching many options, I chose Armor Sphere for my home security. The peace of mind is invaluable."
-              author="Sarah Johnson"
+              author="Tariro Dzakasa"
               role="Homeowner"
             />
             <TestimonialCard
               quote="As a collector of valuable items, I needed the best protection available. Armor Sphere delivers exactly that."
-              author="Robert Chen"
+              author="Lu Chen"
               role="Art Collector"
             />
           </div>
