@@ -239,11 +239,11 @@ export default function ProductsPage() {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href={`https://wa.me/263774620747?text=Hello%20Armor%20Sphere%2C%20I%20am%20interested%20in%20the%20${product.name}%20vault. ${product.size}`} target="_blank" rel="noopener noreferrer">
+                  <Link href={`https://wa.me/263774620747?text=Hello%20Armor%20Sphere%2C%20I%20am%20interested%20in%20the%20${product.name}%20vault. ${product.size}`} target="_blank" >
                   <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
                     Enquire
                   </Button>
-                  </a>
+                  </Link>
                  
                 </div>
               </div>

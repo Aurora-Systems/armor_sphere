@@ -160,7 +160,7 @@ export default function Home() {
             ))}
           </div>
           <div className="flex justify-center ">
-            <Link href="wa.me/263774620747?text=Can i view more of your products" target="blank"><Button size="lg" className="mt-8 bg-red-600 hover:bg-red-700 text-white">
+            <Link href="/products"><Button size="lg" className="mt-8 bg-red-600 hover:bg-red-700 text-white">
               View All Products
             </Button></Link>
           </div>
