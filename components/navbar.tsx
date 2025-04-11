@@ -30,12 +30,13 @@ export default function Navbar() {
             <Link href="/" className="text-white hover:text-red-500 transition-colors">
               Home
             </Link>
-            <Link href="/products" className="text-white hover:text-red-500 transition-colors">
-              Products
-            </Link>
             <Link href="/about" className="text-white hover:text-red-500 transition-colors">
               About
             </Link>
+            <Link href="/products" className="text-white hover:text-red-500 transition-colors">
+              Products
+            </Link>
+            
             <Link href="/contact" className="text-white hover:text-red-500 transition-colors">
               Contact
             </Link>
@@ -66,6 +67,13 @@ export default function Navbar() {
               Home
             </Link>
             <Link
+              href="/about"
+              className="block text-white hover:text-red-500 transition-colors py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              About
+            </Link>
+            <Link
               href="/products"
               className="block text-white hover:text-red-500 transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
@@ -73,13 +81,7 @@ export default function Navbar() {
               Products
             </Link>
             
-            <Link
-              href="/about"
-              className="block text-white hover:text-red-500 transition-colors py-2"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              About
-            </Link>
+           
             <Link
               href="/contact"
               className="block text-white hover:text-red-500 transition-colors py-2"

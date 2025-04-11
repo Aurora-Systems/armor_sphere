@@ -52,9 +52,9 @@ export default function ProductCard({ product }: ProductProps) {
             <div className="mt-auto">
               <div className="flex justify-between items-center mb-4">
                 <span className="text-2xl font-bold text-white">${product.price}</span>
-                <Button size="sm" variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
+                {/* <Button size="sm" variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
                   Details
-                </Button>
+                </Button> */}
               </div>
 
               <Button className="w-full bg-red-600 hover:bg-red-700 text-white">Add to Quote</Button>

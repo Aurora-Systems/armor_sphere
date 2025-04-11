@@ -98,12 +98,17 @@ export default function Home() {
             peace of mind.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/products">
             <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
               Explore Products
             </Button>
+            </Link>
+            <Link href="/about">
+
             <Button size="lg" variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
               Learn More
             </Button>
+            </Link>
           </div>
         </div>
       </section>
