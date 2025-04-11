@@ -4,6 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { CheckCircle } from "lucide-react"
+import Link from "next/link"
 
 interface ProductProps {
   product: {
@@ -57,7 +58,7 @@ export default function ProductCard({ product }: ProductProps) {
                 </Button> */}
               </div>
 
-              <Button className="w-full bg-red-600 hover:bg-red-700 text-white">Add to Quote</Button>
+              <Button className="w-full bg-red-600 hover:bg-red-700 text-white">Enquire</Button>
             </div>
           </div>
         </div>
@@ -76,7 +77,7 @@ export default function ProductCard({ product }: ProductProps) {
             ))}
           </ul>
           <div className="mt-auto">
-            <Button className="w-full bg-red-600 hover:bg-red-700 text-white">Add to Quote</Button>
+            <Link href={`https://wa.me/263774620747?text=Can i get more information about your ${product.name} (${product.size}) `} target="_blank"><Button className="w-full bg-red-600 hover:bg-red-700 text-white">Enquire</Button></Link>
           </div>
         </div>
       </div>
