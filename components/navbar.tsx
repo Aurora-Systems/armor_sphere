@@ -33,10 +33,10 @@ export default function Navbar() {
             <Link href="/products" className="text-white hover:text-red-500 transition-colors">
               Products
             </Link>
-            <Link href="#about" className="text-white hover:text-red-500 transition-colors">
+            <Link href="/about" className="text-white hover:text-red-500 transition-colors">
               About
             </Link>
-            <Link href="#contact" className="text-white hover:text-red-500 transition-colors">
+            <Link href="/contact" className="text-white hover:text-red-500 transition-colors">
               Contact
             </Link>
           </nav>
@@ -72,22 +72,16 @@ export default function Navbar() {
             >
               Products
             </Link>
+            
             <Link
-              href="#features"
-              className="block text-white hover:text-red-500 transition-colors py-2"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Features
-            </Link>
-            <Link
-              href="#about"
+              href="/about"
               className="block text-white hover:text-red-500 transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link
-              href="#contact"
+              href="/contact"
               className="block text-white hover:text-red-500 transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >

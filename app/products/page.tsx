@@ -10,139 +10,124 @@ export default function ProductsPage() {
     {
       id: 1,
       name: "Compact Vault",
-      size: "26L",
+      size: "36L",
       dimensions: "50 × 40 × 40 CM",
       weight: "140 KGS",
       price: 300,
-      image: "/placeholder.svg?height=500&width=500",
+      image: "https://ngratesc.sirv.com/armor_sphere/36l.png",
       description: "Perfect for home use, the Compact Vault offers essential security in a space-saving design.",
       features: [
-        "Fire resistant up to 1 hour at 1700°F",
-        "Digital lock with backup key",
-        "Emergency override system",
-        "4 anchor points for secure installation",
-        "Reinforced steel door (10mm thickness)",
+        "Fire resistant ",
+        "Anchor points for secure installation",
+        "Reinforced steel door ",
         "Anti-pry design",
         "Scratch-resistant powder coating",
       ],
       specifications: {
         "External Dimensions": "50 × 40 × 40 CM",
-        "Internal Dimensions": "42 × 32 × 32 CM",
         Weight: "140 KGS",
-        Volume: "26L",
-        "Door Thickness": "10mm solid steel",
-        "Body Construction": "Double-walled steel with fire-resistant material",
-        "Lock Type": "Digital with key backup",
-        "Power Source": "2 AA batteries (included)",
-        Warranty: "5 years",
+        Volume: "36L",
+      
+        Warranty: "20 years",
       },
-      rating: 4.7,
+      rating: 5.0,
       bestFor: ["Apartments", "Small homes", "Office spaces"],
     },
     {
       id: 2,
-      name: "Standard Vault",
+      name: "Compact Drop In Vault",
+      size: "36L",
+      dimensions: "50 × 40 × 40 CM",
+      weight: "140 KGS",
+      price: 350,
+      image: "https://ngratesc.sirv.com/armor_sphere/36l%20dpi.png",
+      description: "Perfect for home & office use, the Compact Drop In Vault allows for quick deposits without opening the vault",
+      features: [
+        "Fire resistant ",
+        "Anchor points for secure installation",
+        "Reinforced steel door ",
+        "Anti-pry design",
+        "Scratch-resistant powder coating",
+      ],
+      specifications: {
+        "External Dimensions": "50 × 40 × 40 CM",
+        Weight: "140 KGS",
+        Volume: "36L",
+        Warranty: "20 years",
+      },
+      rating: 5.0,
+      bestFor: ["Apartments", "Small homes", "Office spaces"],
+    },
+    {
+      id: 3,
+      name: "Family Vault",
       size: "60L",
       dimensions: "66 × 48 × 40 CM",
       weight: "190 KGS",
       price: 600,
-      image: "/placeholder.svg?height=500&width=500",
+      image: "https://ngratesc.sirv.com/armor_sphere/60l.png",
       description: "Our most popular model, balancing capacity and security for the average household.",
       features: [
-        "Fire resistant up to 2 hours at 1700°F",
-        "Digital lock with backup key",
-        "Emergency override system",
-        "6 anchor points for secure installation",
-        "Reinforced steel door (12mm thickness)",
+        "Fire resistant ",
+        "Anchor points for secure installation",
+        "Reinforced steel door ",
         "Anti-pry design",
-        "Interior LED lighting",
         "Scratch-resistant powder coating",
-        "Adjustable shelving",
       ],
       specifications: {
         "External Dimensions": "66 × 48 × 40 CM",
-        "Internal Dimensions": "58 × 40 × 32 CM",
         Weight: "190 KGS",
         Volume: "60L",
-        "Door Thickness": "12mm solid steel",
-        "Body Construction": "Double-walled steel with fire-resistant material",
-        "Lock Type": "Digital with key backup",
-        "Power Source": "4 AA batteries (included)",
-        Warranty: "10 years",
+        Warranty: "20 years",
       },
       rating: 4.8,
       bestFor: ["Family homes", "Small businesses", "Document storage"],
     },
     {
-      id: 3,
-      name: "Family Vault",
+      id: 4,
+      name: "Business Vault",
       size: "80L",
       dimensions: "66 × 50 × 50 CM",
       weight: "240 KGS",
       price: 700,
-      image: "/placeholder.svg?height=500&width=500",
-      description: "Designed for families with extensive valuables requiring both space and advanced protection.",
+      image: "https://ngratesc.sirv.com/armor_sphere/80l.png",
+      description: "Designed for businesses, this vault offers a larger capacity.",
       features: [
-        "Fire resistant up to 2 hours at 1700°F",
-        "Digital lock with backup key",
-        "Emergency override system",
-        "8 anchor points for secure installation",
-        "Reinforced steel door (15mm thickness)",
+        "Fire resistant ",
+        "Anchor points for secure installation",
+        "Reinforced steel door ",
         "Anti-pry design",
-        "Interior LED lighting",
-        "Humidity control system",
         "Scratch-resistant powder coating",
-        "Adjustable shelving",
-        "Soft interior lining",
       ],
       specifications: {
         "External Dimensions": "66 × 50 × 50 CM",
-        "Internal Dimensions": "58 × 42 × 42 CM",
         Weight: "240 KGS",
         Volume: "80L",
-        "Door Thickness": "15mm solid steel",
-        "Body Construction": "Triple-walled steel with fire-resistant material",
-        "Lock Type": "Digital with key backup",
-        "Power Source": "4 AA batteries (included)",
         Warranty: "Lifetime limited warranty",
       },
-      rating: 4.9,
+      rating: 5.0,
       bestFor: ["Large families", "Collectors", "Valuable document storage"],
     },
     {
-      id: 4,
+      id: 5,
       name: "Premium Vault",
       size: "200L",
       dimensions: "130 × 52 × 55 CM",
       weight: "600 KGS",
       price: 1100,
-      image: "/placeholder.svg?height=500&width=500",
+      image: "https://ngratesc.sirv.com/armor_sphere/200l.png",
       description: "Our flagship model offering maximum security and capacity for serious protection needs.",
       features: [
-        "Fire resistant up to 3 hours at 1700°F",
-        "Digital lock with backup key",
-        "Biometric fingerprint scanner",
-        "Emergency override system",
-        "12 anchor points for secure installation",
-        "Reinforced steel door (20mm thickness)",
+        "Fire resistant ",
+        "Anchor points for secure installation",
+        "Reinforced steel door ",
         "Anti-pry design",
-        "Interior LED lighting with motion sensor",
-        "Advanced humidity control system",
         "Scratch-resistant powder coating",
-        "Adjustable shelving and compartments",
-        "Soft interior lining",
-        "Silent alarm capability",
-        "Network connectivity for remote monitoring",
       ],
       specifications: {
         "External Dimensions": "130 × 52 × 55 CM",
-        "Internal Dimensions": "122 × 44 × 47 CM",
         Weight: "600 KGS",
         Volume: "200L",
-        "Door Thickness": "20mm solid steel",
-        "Body Construction": "Triple-walled steel with advanced fire-resistant material",
-        "Lock Type": "Digital + Biometric with key backup",
-        "Power Source": "4 AA batteries with backup power system",
         Warranty: "Lifetime limited warranty with extended service plan",
       },
       rating: 5.0,
@@ -184,12 +169,7 @@ export default function ProductsPage() {
                 {product.name}
               </a>
             ))}
-            <a
-              href="#comparison"
-              className="px-4 py-2 bg-red-900/30 hover:bg-red-900/50 rounded-full transition-colors border border-red-700"
-            >
-              Compare All
-            </a>
+            
           </div>
         </div>
       </section>
@@ -259,12 +239,12 @@ export default function ProductsPage() {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4">
+                  <a href={`https://wa.me/263774620747?text=Hello%20Armor%20Sphere%2C%20I%20am%20interested%20in%20the%20${product.name}%20vault. ${product.size}`} target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
-                    Request Quote
+                    Enquire
                   </Button>
-                  <Button size="lg" variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
-                    Download Specs
-                  </Button>
+                  </a>
+                 
                 </div>
               </div>
             </div>
@@ -302,7 +282,7 @@ export default function ProductsPage() {
       ))}
 
       {/* Product Comparison Section */}
-      <section id="comparison" className="py-20 scroll-mt-32">
+      {/* <section id="comparison" className="py-20 scroll-mt-32">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center tracking-tight">
             Product <span className="text-red-600">Comparison</span>
@@ -315,10 +295,10 @@ export default function ProductsPage() {
             <ProductComparisonTable products={products} />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
-      <section className="py-16 bg-zinc-900/50 backdrop-blur-sm">
+      {/* <section className="py-16 bg-zinc-900/50 backdrop-blur-sm">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto bg-gradient-to-r from-zinc-900 to-black p-8 rounded-lg border border-zinc-800/50 relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=800')] bg-cover bg-center opacity-10"></div>
@@ -337,7 +317,7 @@ export default function ProductsPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   )
 }
