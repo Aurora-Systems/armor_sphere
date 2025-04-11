@@ -20,7 +20,7 @@ export default function Footer() {
             <p className="text-sm">
               Providing premium security solutions since 2024. Our mission is to protect what matters most to you.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <Link href="#" className="text-gray-400 hover:text-red-500 transition-colors">
                 <Facebook size={20} />
                 <span className="sr-only">Facebook</span>
@@ -37,7 +37,7 @@ export default function Footer() {
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
               </Link>
-            </div>
+            </div> */}
           </div>
 
 
@@ -46,7 +46,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-white">Company</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="hover:text-red-500 transition-colors">
+                <Link href="/about" className="hover:text-red-500 transition-colors">
                   About Us
                 </Link>
               </li>
