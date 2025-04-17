@@ -9,8 +9,8 @@ export default function Contact(){
     const send_application = (e: FormEvent) => {
         e.preventDefault()
         set_loading(true)
-        emailjs.sendForm("service_xwf6fms", "template_c4pjfnx", form.current, {
-            publicKey: "CLt7ZGjfiSQEopImB"
+        emailjs.sendForm("service_obhpd9n", "template_4atyo2o", form.current, {
+            publicKey: "A7uJnnWuXfjT6B90P"
         }).then(() => {
             alert("✅ We received your enquiry, expect a call or an email soon!")
             form.current.reset()
@@ -40,7 +40,7 @@ export default function Contact(){
                                 </div>
                                 <div className="mb-3">
                                     <span>Full Name</span>
-                                    <input className="form-control" type="text" name="name" required/>
+                                    <input className="form-control" type="text" name="full_name" required/>
                                 </div>
                                 <div className="mb-3">
                                     <span>Email</span>
