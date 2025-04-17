@@ -55,8 +55,8 @@ export default function Contact(){
                                     <textarea className="form-control" name="message" required></textarea>
                                 </div>
                                 <div className="mb-3">
-                                <Button type="submit" size="lg" className="bg-red-600 hover:bg-red-700 text-white">
-                Send
+                                <Button type="submit" size="lg" disabled={loading} className="bg-red-600 hover:bg-red-700 text-white">
+                {loading?"Sending...":"Send"}
             </Button>
                                 </div>
                             </form>

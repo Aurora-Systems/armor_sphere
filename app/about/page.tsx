@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Shield, Award, Users, Factory, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import "./about.css"
+import Link from "next/link"
 
 export default function AboutPage() {
   const teamMembers = [
@@ -227,9 +228,9 @@ export default function AboutPage() {
                   Sphere seal of quality.
                 </p>
               </div>
-              <Button className="mt-8 bg-red-600 hover:bg-red-700 text-white">
+             <Link href="/contact"> <Button className="mt-8 bg-red-600 hover:bg-red-700 text-white">
                 Tour Our Facility <ChevronRight className="ml-2 h-4 w-4" />
-              </Button>
+              </Button></Link>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <Image

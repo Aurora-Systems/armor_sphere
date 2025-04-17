@@ -202,9 +202,10 @@ export default function Home() {
             <p className="text-xl text-gray-300 mb-8">
               Contact our security experts today for personalized advice on the perfect safe for your needs.
             </p>
-            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
+            <Link href="/contact"><Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
               Get in Touch
             </Button>
+            </Link>
           </div>
         </div>
       </section>
