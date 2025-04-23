@@ -1,5 +1,5 @@
 "use client"
-import ImageGallery from "react-image-gallery"
+import ReactImageGallery from "react-image-gallery"
 import "react-image-gallery/styles/css/image-gallery.css";
 
 export default function Gallery(){
@@ -37,7 +37,7 @@ export default function Gallery(){
             <p className="text-center mt-4">Explore our range of products and their features.</p>
             </div>
             <div className="container mx-auto mt-10 mb-10">
-                <ImageGallery items={images}/>
+                <ReactImageGallery items={images}/>
             </div>
           
         </div>
