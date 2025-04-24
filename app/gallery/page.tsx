@@ -79,7 +79,7 @@ export default function Gallery(){
             <p className="text-center mt-4">Explore our range of products and their features.</p>
             </div>
             <div className="container mx-auto mt-10 mb-10">
-                <ReactImageGallery showThumbnails={true} items={images}/>
+                <ReactImageGallery showIndex={true} showThumbnails={true} items={images}/>
             </div>
           
         </div>
